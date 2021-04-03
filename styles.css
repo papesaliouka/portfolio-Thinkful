@@ -46,9 +46,6 @@ a:hover{
     text-decoration: none;
 }
 
-a:visited{
-    color: blue ;
-}
 
 /* styles the text color in the header and footer*/
 .text-color{
