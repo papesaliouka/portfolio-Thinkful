@@ -4,7 +4,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
-
+/*Header Styles*/
 header{
     display: flex;
     flex-direction: column;
@@ -12,14 +12,15 @@ header{
     align-items: center;
     background-color: #414350;
 }
+/* Sections Styles*/
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
-
+/*footers styles*/
 footer{
     display: flex;
     justify-content: center;
@@ -36,9 +37,20 @@ img{
 
 a{
     padding: 2px;
-    color: black;
+    color: darkblue;
+    text-decoration: none;
 }
 
+a:hover{
+    color: darkkhaki;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue ;
+}
+
+/* styles the text color in the header and footer*/
 .text-color{
     color: whitesmoke;
 }
